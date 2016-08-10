@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Says...</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <h1>A Survey of your favorite beverages:</h1>
+    <h3>What is your favorite beverage during winter holiday:</h3>
+    <form id="holidaybev">
+      <div class="radio">
+          <label>
+            <input type="radio" name="hbev" value="Eggnog" checked>
+            Eggnog
+          </label><hr>
+          <label>
+            <input type="radio" name="hbev" value="Mulled wine">
+            Mulled wine
+          </label><hr>
+          <label>
+            <input type="radio" name="hbev" value="Hot apple cider">
+            Hot apple cider
+          </label><hr>
+          <label>
+            <input type="radio" name="hbev" value="Hot chocolate">
+            Hot chocolate with marshmallow
+          </label><hr>
+          <button type="submit" class="btn-success">go!!</button>
+        </div>
+      </form>
+      <!--ANOTHER question-->
+      <h3>What is your favorite beverage on a hot day?:</h3>
+      <form id="hotdaybev">
+        <div class="radio">
+            <label>
+              <input type="radio" name="hdbev" value="Lemonade" checked>
+              Lemonade
+            </label><hr>
+            <label>
+              <input type="radio" name="hdbev" value="Mojito">
+              Mojito
+            </label><hr>
+            <label>
+              <input type="radio" name="hdbev" value="Ice water">
+              Ice water
+            </label><hr>
+            <label>
+              <input type="radio" name="hdbev" value="Beer">
+              Beer
+            </label><hr>
+            <button type="submit" class="btn-success">go!!</button>
+          </div>
+        </form>
+    </div>
+  </body>
+</html>
